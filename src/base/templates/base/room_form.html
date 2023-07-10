@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% content block %}
+
+<div>
+  <form action="." method="POST">
+    {% csrf_token %}
+
+    <input type="submit" value="Sublit"/>
+  </form>
+</div>
+
+{% endblock content %}
