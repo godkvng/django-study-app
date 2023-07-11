@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c177631-f7a0-4e3c-b657-7756467a63b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/login_register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/templates/base/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688999894451</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented Simple CSS to `home.html`and search feature to `navbar.html`">
+      <created>1689005371213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689005371213</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +161,7 @@
     <MESSAGE value="Added form class for creating new room, and rendered the form in `room_form.html`" />
     <MESSAGE value="Create Room feature finalized. Modified ordering on homepage" />
     <MESSAGE value="Added `Update Room` and `Dlete Room` feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added `Update Room` and `Dlete Room` feature" />
+    <MESSAGE value="Implemented Simple CSS to `home.html`and search feature to `navbar.html`" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Simple CSS to `home.html`and search feature to `navbar.html`" />
   </component>
 </project>
