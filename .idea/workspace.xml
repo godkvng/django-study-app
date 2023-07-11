@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c177631-f7a0-4e3c-b657-7756467a63b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/templates/base/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/room.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="4c177631-f7a0-4e3c-b657-7756467a63b4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689081104992</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented `conversation` feature and added `participants` layout">
+      <created>1689086802415</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689086802415</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,7 +175,8 @@
     <MESSAGE value="Implemented Simple CSS to `home.html`and search feature to `navbar.html`" />
     <MESSAGE value="Implemented user login &amp; authentication" />
     <MESSAGE value="Modified registration page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified registration page" />
+    <MESSAGE value="Implemented `conversation` feature and added `participants` layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented `conversation` feature and added `participants` layout" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
