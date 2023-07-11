@@ -75,10 +75,12 @@ def home(request):
 	# rooms = Room.objects.all()
 	topics = Topic.objects.all()
 	room_count = rooms.count()
+	comments = Message.objects.all()
 	context = {
 		'rooms': rooms,
 		'topics': topics,
 		'room_count': room_count,
+		'comments': comments,
 	}
 	return render(request, 'base/home.html', context)
 
@@ -147,9 +149,9 @@ def delete_room(request, pk):
 		room.delete()
 		return redirect('home')
 	context = {'obj': room}
-	return render(request, 'base/delete.html', context) \
- \
- \
+	return render(request, 'base/delete.html', context)
+
+
 @login_required(login_url='login')
 def delete_message(request, pk):
 	message = Message.objects.get(id=pk)
