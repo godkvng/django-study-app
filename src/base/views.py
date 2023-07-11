@@ -8,7 +8,7 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
 from .forms import RoomForm
-from .models import Room, Topic
+from .models import Room, Topic, Message
 
 
 # rooms = [
@@ -89,7 +89,18 @@ def room(request, pk):
 	# 	if i['id'] == int(pk):
 	# 		room = i
 	room = Room.objects.get(id=pk)
-	context = {'room': room}
+	comments = room.message_set.all().order_by('created')
+	participants = room.participants.all()
+
+	# Creating message when user writes new message
+	if request.method == 'POST':
+		message = Message.objects.create(
+			user=request.user,
+			room=room,
+			body=request.POST.get('body')
+		)
+		return redirect('room', pk=room.id)
+	context = {'room': room, 'comments': comments, 'participants': participants}
 	return render(request, 'base/room.html', context)
 
 
