@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c177631-f7a0-4e3c-b657-7756467a63b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689165867013</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implemented theme and made some necessary modifications">
+      <created>1689170902662</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689170902662</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +266,8 @@
     <MESSAGE value="Added `user profile` page" />
     <MESSAGE value="Moved CSS styles to `static`  directory and included in `settings.py`" />
     <MESSAGE value="Minor fixes in `create-room`  page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes in `create-room`  page" />
+    <MESSAGE value="Implemented theme and made some necessary modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented theme and made some necessary modifications" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
