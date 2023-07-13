@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4c177631-f7a0-4e3c-b657-7756467a63b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/templates/base/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/templates/base/room_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/room_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689253028812</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Connected (and modified) `rooms`  section of the backend with installed theme">
+      <created>1689257524297</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1689257524297</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +315,8 @@
     <MESSAGE value="Connected `feeds`  section of the backend with installed theme" />
     <MESSAGE value="Connected `recent activities`  section of the backend with installed theme" />
     <MESSAGE value="Connected `profile`  section of the backend with installed theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected `profile`  section of the backend with installed theme" />
+    <MESSAGE value="Connected (and modified) `rooms`  section of the backend with installed theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected (and modified) `rooms`  section of the backend with installed theme" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
