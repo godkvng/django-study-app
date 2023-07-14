@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c177631-f7a0-4e3c-b657-7756467a63b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/templates/base/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689263807063</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added &amp; modified `edit profile`  feature for users">
+      <created>1689330767533</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1689330767533</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +325,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create Room feature finalized. Modified ordering on homepage" />
     <MESSAGE value="Added `Update Room` and `Dlete Room` feature" />
     <MESSAGE value="Implemented Simple CSS to `home.html`and search feature to `navbar.html`" />
     <MESSAGE value="Implemented user login &amp; authentication" />
@@ -349,7 +349,8 @@
     <MESSAGE value="Manually rendering some fields in the `create-room`  page" />
     <MESSAGE value="Rebuilding the create-room form without using `Django Form Model`" />
     <MESSAGE value="Rebuilding the update-room form without using `Django Form Model`" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebuilding the update-room form without using `Django Form Model`" />
+    <MESSAGE value="Added &amp; modified `edit profile`  feature for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &amp; modified `edit profile`  feature for users" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
