@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c177631-f7a0-4e3c-b657-7756467a63b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/activity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/delete-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/home-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/login_register-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/profile-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/room-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/room_form-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/templates/base/update-user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/templates/base/activity_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/activity_component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/templates/base/topics_components.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/topics_components.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/views.py" afterDir="false" />
     </list>
@@ -292,7 +300,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689595290419</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Moved `browse topics`  to its individual template">
+      <created>1689597949783</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1689597949783</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Limited the number of topics on the `topics page`  to 5">
+      <created>1689598134077</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1689598134079</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Moved `topics`  section to it's individual template">
+      <created>1689598677793</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1689598677793</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,9 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modified registration page" />
-    <MESSAGE value="Implemented `conversation` feature and added `participants` layout" />
-    <MESSAGE value="Added feature for users to join room once user writes comment in room" />
     <MESSAGE value="Added `delete message`feature for logged-in users" />
     <MESSAGE value="Added and modified `activity feed`  section on homepage sidebar" />
     <MESSAGE value="Modified `Activity Feed`  section to show only data from selected topic" />
@@ -375,7 +401,10 @@
     <MESSAGE value="Modified the `room messages`  template to show sent messages" />
     <MESSAGE value="Connedted (&amp; modified) the delete page template of the backend with the installed theme" />
     <MESSAGE value="Connected (&amp; modified) the login &amp; register page template of the backend with the installed theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected (&amp; modified) the login &amp; register page template of the backend with the installed theme" />
+    <MESSAGE value="Moved `browse topics`  to its individual template" />
+    <MESSAGE value="Limited the number of topics on the `topics page`  to 5" />
+    <MESSAGE value="Moved `topics`  section to it's individual template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved `topics`  section to it's individual template" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
