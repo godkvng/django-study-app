@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c177631-f7a0-4e3c-b657-7756467a63b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/templates/base/activity.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/templates/base/delete-old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/templates/base/home-old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/templates/base/login_register-old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/templates/base/profile-old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/templates/base/room-old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/templates/base/room_form-old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/templates/base/update-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/templates/base/activity_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/activity_component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/templates/base/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studyapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/studyapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studyapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/studyapp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -321,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689598677793</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Moved `recent activities`  section to its individual template">
+      <created>1689599800274</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1689599800274</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +380,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added `delete message`feature for logged-in users" />
     <MESSAGE value="Added and modified `activity feed`  section on homepage sidebar" />
     <MESSAGE value="Modified `Activity Feed`  section to show only data from selected topic" />
     <MESSAGE value="Separated the sections of the homepage into different html files" />
@@ -404,7 +404,8 @@
     <MESSAGE value="Moved `browse topics`  to its individual template" />
     <MESSAGE value="Limited the number of topics on the `topics page`  to 5" />
     <MESSAGE value="Moved `topics`  section to it's individual template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved `topics`  section to it's individual template" />
+    <MESSAGE value="Moved `recent activities`  section to its individual template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved `recent activities`  section to its individual template" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
